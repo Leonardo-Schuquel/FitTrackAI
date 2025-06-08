@@ -1,0 +1,19 @@
+Direitos Autorais © Leonardo, 2025
+
+Todos os direitos reservados.
+
+Este software foi desenvolvido por Leonardo e está protegido por leis de direitos autorais nacionais e internacionais.
+
+É estritamente proibido:
+
+- Copiar, modificar ou distribuir este código, total ou parcialmente;
+- Utilizar este software para fins comerciais ou acadêmicos sem autorização expressa do autor;
+- Publicar versões derivadas, alteradas ou adaptadas deste projeto.
+
+O código-fonte está disponível publicamente apenas para fins de **exibição e aprendizado**, **não para reutilização** ou redistribuição.
+
+Ao acessar este repositório, você concorda com os termos acima.
+
+Para obter permissão para qualquer uso, entre em contato com o autor.
+
+Leonardo – 2025
