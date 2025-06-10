@@ -10,6 +10,20 @@ objectives = {
 def clear():
     os.system('clear')
 
+def classify_imc(imc):
+    
+    tracks = [
+    (18.5, "Abaixo do peso"),
+    (25.0, "Peso normal"),
+    (30.0, "Sobrepeso"),
+    (35.0, "Obesidade grau 1"),
+    (40.0, "Obesidade grau 2"),
+    (float('inf'), "Obesidade grau 3"),
+]
+    for limit, rank in tracks:
+        if imc < limit:
+            return rank
+    
 
 def calc_imc(height, weight):
     imc = weight/(height ** 2)
@@ -38,7 +52,7 @@ def show_data(user_data):
     print(f"-> Idade {user_data['age']} anos")
     print(f"-> Altura {user_data['height']} m")
     print(f"-> Peso {user_data['weight']} Kg")
-    print(f"-> IMC {user_data['bmi']}")
+    print(f"-> IMC {user_data['bmi']} ({user_data['bmi_classification']})")
     print()
 
 
