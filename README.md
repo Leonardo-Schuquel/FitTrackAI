@@ -49,7 +49,7 @@ python3 imc_calculadora.py
 
 Leonardo – Estudante de Análise e Desenvolvimento de Sistemas com foco em tecnologia para saúde. Apaixonado por automação e projetos com impacto real.
 
-[LinkedIn](https://www.linkedin.com/in/seu-usuario) • [Portfólio](https://github.com/seu-usuario)
+[LinkedIn](https://www.linkedin.com/in/leonardo-schuquel-da-luz-766b25353) • [Portfólio](https://github.com/Leonardo-Schuquel)
 
 ---
 
