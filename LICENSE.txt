@@ -1,19 +1,10 @@
-Direitos Autorais © Leonardo, 2025
+Creative Commons Attribution-NoDerivatives 4.0 International
 
-Todos os direitos reservados.
+Este projeto está licenciado sob os termos da licença CC BY-ND 4.0.
 
-Este software foi desenvolvido por Leonardo e está protegido por leis de direitos autorais nacionais e internacionais.
+Você pode compartilhar, copiar e redistribuir o material em qualquer meio ou formato para qualquer finalidade, mesmo comercialmente, desde que:
+- Atribua o crédito apropriado, fornecendo um link para a licença e indicando se alterações foram feitas.
+- Não altere, transforme ou crie com base neste material.
 
-É estritamente proibido:
-
-- Copiar, modificar ou distribuir este código, total ou parcialmente;
-- Utilizar este software para fins comerciais ou acadêmicos sem autorização expressa do autor;
-- Publicar versões derivadas, alteradas ou adaptadas deste projeto.
-
-O código-fonte está disponível publicamente apenas para fins de **exibição e aprendizado**, **não para reutilização** ou redistribuição.
-
-Ao acessar este repositório, você concorda com os termos acima.
-
-Para obter permissão para qualquer uso, entre em contato com o autor.
-
-Leonardo – 2025
+Para mais detalhes, visite:
+https://creativecommons.org/licenses/by-nd/4.0/
