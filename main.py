@@ -1,4 +1,4 @@
-from utils import clear, calc_imc, validate_data, show_data, classify_imc
+from utils import clear, calc_imc, validate_data, show_data, classify_imc, save_user_data
 
 def collect_data():
     name = input('Qual é o seu nome? ')
@@ -29,5 +29,6 @@ while True:
         user_data["bmi_classification"] = classify_imc(bmi)
     
     show_data(user_data)
+    save_user_data(user_data)
 
     break

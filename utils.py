@@ -1,4 +1,5 @@
 import os
+import json
 from colorama import Fore, Style
 
 objectives = {
@@ -10,8 +11,8 @@ objectives = {
 def clear():
     os.system('clear')
 
+# simple imc classification
 def classify_imc(imc):
-    
     tracks = [
     (18.5, "Abaixo do peso"),
     (25.0, "Peso normal"),
@@ -24,11 +25,12 @@ def classify_imc(imc):
         if imc < limit:
             return rank
     
-
+# function responsible for calculating the imc
 def calc_imc(height, weight):
     imc = weight/(height ** 2)
     return round(imc, 2)
 
+# validating the data for the function
 def validate_data(user_data):
     try:
         user_data['age'] = int(user_data['age'])
@@ -63,3 +65,8 @@ def show_data(user_data):
     print(Fore.GREEN + "💪 SUGESTÃO DE TREINO:" + Style.RESET_ALL)
     print(f"-> {objectives[user_data['goal']][1]}")
     print(50 * '=')
+
+# Save user data
+def save_user_data(user_data):
+    with open("data/data.json", 'w') as file:
+        json.dump(user_data, file, indent=2)
